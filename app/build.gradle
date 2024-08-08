@@ -46,4 +46,5 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.retrofit2)
     implementation(libs.retrofit2.converter.kotlinx.serialization)
+    implementation(libs.okhttp3.logging.interceptor)
 }
