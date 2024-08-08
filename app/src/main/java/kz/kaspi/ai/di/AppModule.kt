@@ -22,7 +22,7 @@ private fun provideRetrofit(
 ): Retrofit {
     val contentType = "application/json".toMediaType()
     return Retrofit.Builder()
-        .baseUrl("") // todo
+        .baseUrl("restcountries.com/v3.1/")
         .client(okHttpClient)
         .addConverterFactory(jsonFormat.asConverterFactory(contentType))
         .build()
