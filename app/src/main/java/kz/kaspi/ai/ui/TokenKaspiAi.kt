@@ -1,4 +1,4 @@
-package kz.kaspi.ai
+package kz.kaspi.ai.ui
 
 enum class TokenKaspiAi {
     ACCESS_TOKEN,
